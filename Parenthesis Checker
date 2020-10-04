@@ -1,0 +1,39 @@
+#include <iostream>
+#include<stack>
+using namespace std;
+
+bool balance(string ch)
+{
+    stack<char> s;
+    for(int i=0; i < ch.size(); i++)
+	{
+	    if(ch[i]=='(' || ch[i] == '{' || ch[i] == '[')
+	        s.push(ch[i]);
+	    else
+	    {
+            if(s.empty()==true)
+	           return false;
+	        else if(s.top() == '(' && ch[i] == ')' || s.top() == '{' && ch[i] == '}' || s.top() == '[' && ch[i] == ']')
+	           s.pop();
+	        else
+	           return false;
+	     }
+	}
+	return s.empty()==true;
+}
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    string ch;
+	    cin>>ch;
+	    //int l = sizeof(ch) / sizeof(arr[0]);
+	    if(balance(ch))
+	        cout<<"balanced"<<endl;
+	    else
+	        cout<<"not balanced"<<endl;
+	}
+	return 0;
+}
