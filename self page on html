@@ -1,0 +1,30 @@
+<!doctype html>
+ <html>
+   <head>
+<style>
+img {text-align: center;}
+a{background-color:black;}
+h1{color:red;}
+</style>
+    
+  </head>
+  <body>
+  <img src=" C:\Users\LENOVO\Desktop\fa.jpg" alt="home" width="500" height="500">
+<img src=" C:\Users\LENOVO\Desktop\dj.jpg" alt="dij width="500" height="500"><br><br>
+ <img src="C:\Users\LENOVO\Desktop\New folder\F & f\aaa.jpg"  alt="dij width="500" height="500">
+ <img src="C:\Users\LENOVO\Desktop\New folder\F & f\siss.jpg"  alt="m" width="500" height="500"><br>
+  <h1 style="text-align: center;"> FAMILY</h1>
+  <p style="color:blue">Family might be defined as a group of people who are related to each other, but it’s more than that. </p>
+  <p style="color:blue">It’s a meaningful connection, an experience. It’s an incredible and unbreakable bond—created by mothers, fathers, sisters, brothers. </p>
+  <p style="color:blue">It’s comfort in a world of uncertainty. It’s a shoulder to lean on. It’s a source of inspiration. </p>
+  <p>It’s love and support. It’s that warm and fuzzy feeling. It’s wonderful, and it’s necessary.</p>
+  <h2 style="text-align: center;">FAMILY MEMBER</h2>
+
+ <p><a href="daduji.html"">____dadaji</a> <a href="grandmaa.html">____grandmaa</a>   <a href="papa.html">___papa</a>   <a href="maa.html">_____maa</a>    <a href="didi.html">____divya</a>    <a href="diksh.html">____deeksha</a>   <a href="bullu.html">_______vandana</a>  <a href="ishu.html">___ishu</a></p>
+ 
+  <i><p style="text-align: center;">family is not an important .its everything.</p></i>
+   <h1 style="text-align: center;">moment of happiness are felt inside the comfart called family.</h1>
+ 
+
+</body>
+</html>
